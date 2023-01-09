@@ -11,7 +11,7 @@
   <ul>
     <% skills.forEach(skill => { %>
       <li>
-				<%= skill.text %> 
+				<a href="/skills/<%= skill.id %>"><%= skill.text %></a>
 				- 
 				<%= skill.done ? 'done' : 'not done' %>
 			</li>
