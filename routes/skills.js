@@ -15,7 +15,6 @@ router.get('/:id', skillsCtrl.show)
 // Post localhost:3000/skills
 router.post('/', skillsCtrl.create)
 
-
 export {
   router
 }
