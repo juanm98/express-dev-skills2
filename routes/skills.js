@@ -15,6 +15,9 @@ router.get('/:id', skillsCtrl.show)
 // Post localhost:3000/skills
 router.post('/', skillsCtrl.create)
 
+// Delete todos/:id
+router.delete('/:id', skillsCtrl.delete)
+
 export {
   router
 }
